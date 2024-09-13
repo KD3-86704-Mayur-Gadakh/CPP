@@ -46,6 +46,14 @@ public:
     {
         return ptr[top];
     }
+
+    void print()
+    {
+        for (int i = 0; i <= top; i++)
+        {
+            cout << ptr[i] << " " << endl;
+        }
+    }
 };
 
 int main()
